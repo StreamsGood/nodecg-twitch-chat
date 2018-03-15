@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style>
+		body {
+			margin: 0px !important;
+		}
+
+		#twitch-chat {
+			min-height: 325px;
+			height: 100vh;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<iframe id="twitch-chat" frameborder="0" scrolling="no"></iframe>
+</body>
+<script>
+	document.querySelector('#twitch-chat').src = `http://twitch.tv/${nodecg.bundleConfig.username}/chat`;
+</script>
