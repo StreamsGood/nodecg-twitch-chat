@@ -14,7 +14,7 @@
       {
         "name": "twitch-chat",
         "title": "Twitch Chat",
-        "width": 3,
+        "width": 4,
         "file": "twitch-chat.html",
         "headerColor": "#6441A4"
       }
