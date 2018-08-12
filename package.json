@@ -9,7 +9,7 @@
   "author": "Brendan Hagan (haganbmj)",
   "license": "MIT",
   "nodecg": {
-    "compatibleRange": ">=0.9",
+    "compatibleRange": ">=1.1.0",
     "dashboardPanels": [
       {
         "name": "twitch-chat",
